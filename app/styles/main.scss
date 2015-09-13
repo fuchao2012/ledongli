@@ -43,8 +43,8 @@ html, body {
 }
 .slide_page_2 {
   background: url("../images/BG.png") no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  background-size: contain;
   .donate{
     margin: 8% auto 0;
     width: 80%;
@@ -110,24 +110,28 @@ html, body {
 }
 .slide_page_3{
   background: url("../images/BG.png") no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  background-size: contain;
   .plan{
     display: block;
-    width: 45%;
+    width: 30%;
     height: 50px;
     z-index: 10;
+    margin-top: 10%;
     background: url("../images/1/plan.png") no-repeat;
     -webkit-background-size: contain;
     background-size: contain;
   }
   .planDesc{
-
+    margin: 20px;
+    line-height: 1.7em;
+    color: #fff;
+    font-size: large;
   }
   .join{
     display: block;
-    width: 80%;
-    height: 50px;
+    height: 100px;
+    margin-left: 8%;
     z-index: 10;
     background: url("../images/1/join.png") no-repeat;
     -webkit-background-size: contain;
