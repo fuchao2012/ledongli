@@ -3,7 +3,9 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
-    "modernizr": "~2.8.1"
+    "modernizr": "~2.8.1",
+    "slide": "https://github.com/skyweaver213/slide.git",
+    "zeptojs": "~1.1.6"
   },
   "overrides": {
     "bootstrap-sass": {
