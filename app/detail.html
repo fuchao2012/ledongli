@@ -1,10 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webpages</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
 </head>
 <body>
+<div class="project-header">
+  <div class="left-part">
+    <div class="project-num-icon"></div>
+    <div class="project-num"></div>
+  </div>
+  <canvas class="loader"></canvas>
+  <div class="right-part">
+    <div class="project-target-icon"></div>
+    <div class="project-target"></div>
+  </div>
+  <!--通过title控制文字的宽度，超过宽度使用...代替-->
+  <div class="project-title title">美姑县尔其乡依惹村小学</div>
+  <!--判断是不是我的项目-->
+  <div class="my-donate" style="display:block;">
+    我的助力 <span class="myDonate">1234</span>大卡
+    <div class="invite"></div>
+    <div class="hero-belongs"></div>
+  </div>
+</div>
+<div class="project-body">
+  <div class="container">
+    <div class="about-wrap">
+      <div class="about-school"></div>
+    </div>
+    <div class="project-container">
+      <p>这里是测试文字，这里是测试文字，这里是测试文字，这里是测试文字，这里是测试文字，这里是测试文字，这里是测试文字，这里是测试文字，这里是测试文字，这里是测试文字</p>
+      <img src="images/project.png" alt=""/>
+    </div>
+  </div>
+</div>
+<div class="project-footer">
+  <!--判断是不是我的项目-->
+  <button class="see-others" style="display:block;"></button>
+  <button class="join-this"></button>
+</div>
 
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js scripts/plugins.js -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="scripts/classyloader.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
 </body>
 </html>
