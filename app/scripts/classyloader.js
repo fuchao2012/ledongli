@@ -10,8 +10,8 @@
       return Math.PI / 180 * e;
     }
     var defaultSettings = {
-      width: 200,
-      height: 200,
+      width: 140,
+      height: 120,
       animate: true,
       displayOnLoad: true,
       percentage: 100,
@@ -26,7 +26,7 @@
       fontColor: 'rgba(0, 0, 0, 0.6)',
       lineColor: 'rgba(255, 126, 0, 1)',
       remainingLineColor: 'rgba(255, 126, 0, 0.1)',
-      lineWidth: 17
+      lineWidth: 12
     };
     settings = $.extend({
     }, defaultSettings, settings);
