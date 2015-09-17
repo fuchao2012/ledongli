@@ -3,92 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpages</title>
-
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <!-- build:css styles/vendor.css -->
-  <!-- bower:css -->
-  <!-- endbower -->
-  <!-- endbuild -->
-
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <title>乐动力</title>
   <!-- build:css styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
-
-  <!-- build:js scripts/vendor/modernizr.js -->
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  <!-- endbuild -->
 </head>
 <body>
-<!--[if lt IE 10]>
-  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-
-<div class="container list-wrap center-block">
-  <div class="project" style="background-image:url();">
-    <div class="title">这是捐款小学名称,需要做长度判断</div>
-    <div class="percent">
-      <canvas data-value="75" class="loader"></canvas>
-    </div>
-    <div class="target">目标120万大卡</div>
-    <div class="deadline">距离结束还有10天</div>
-  </div>
-  <div class="project">
-    <div class="title">这是捐款小学名称,需要做长度判断</div>
-    <div class="percent">
-      <canvas data-value="32" class="loader"></canvas>
-    </div>
-    <div class="target">目标120万大卡</div>
-    <div class="deadline">距离结束还有10天</div>
-  </div>
-  <div class="project">
-    <div class="title">这是捐款小学名称,需要做长度判断</div>
-    <div class="percent">
-      <canvas data-value="43" class="loader"></canvas>
-    </div>
-    <div class="target">目标120万大卡</div>
-    <div class="deadline">距离结束还有10天</div>
-  </div>
-  <div class="project">
-    <div class="title">这是捐款小学名称,需要做长度判断</div>
-    <div class="percent">
-      <canvas data-value="54" class="loader"></canvas>
-    </div>
-    <div class="target">目标120万大卡</div>
-    <div class="deadline">距离结束还有10天</div>
-  </div>
-  <div class="project">
-    <div class="title">这是捐款小学名称,需要做长度判断</div>
-    <div class="percent">
-      <canvas data-value="99" class="loader"></canvas>
-    </div>
-    <div class="target">目标120万大卡</div>
-    <div class="deadline">距离结束还有10天</div>
-  </div>
+<div class="container list-wrap">
 </div>
-
-<!-- build:js scripts/vendor.js -->
-<!-- bower:js -->
-<!-- endbower -->
-<!-- endbuild -->
 
 <!-- build:js scripts/plugins.js -->
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="scripts/classyloader.js"></script>
-<script>
-  var percenttage;
-  $('.project').find('.loader').each(function () {
-    percenttage = this.dataset.value;
-    $(this).ClassyLoader({percentage: percenttage});
-  });
-</script>
+<script src="../bower_components/zepto/dist/zepto.min.js"></script>
+<script src="../bower_components/common.js"></script>
+<script src="../bower_components/classyloader/classyloader.js"></script>
 <!-- endbuild -->
 
 <!-- build:js scripts/main.js -->
-<script src="scripts/main.js"></script>
+<script src="scripts/list.js"></script>
 <!-- endbuild -->
 
 </body>
